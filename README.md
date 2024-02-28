@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# [Movie Searching App](https://alpha-santhosh.github.io/Movie-Searching-App/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview -
+- The movie searching app is a web-based application built using ReactJS that allows users to search for movies by typing in the movie's title. The app retrieves movie information from the OMDB API and displays it in a user-friendly format.
 
-## Available Scripts
+## Goals - 
+- To create a user-friendly movie searching app that allows users to quickly find relevant movie information based on their search query
+- To showcase the developer's skills in web development and API integration
+- To potentially attract a large user base of movie enthusiasts who are looking for a reliable and convenient way to discover and keep track of their favorite movies
+- To potentially integrate the app with other movie-related services, such as ticket booking or streaming platforms, to provide a seamless user experience for users
 
-In the project directory, you can run:
+## Objectives - 
+- To develop a functional and visually appealing user interface using ReactJS
+- To integrate the OMDB API and use it to retrieve relevant movie information based on the user's search query
+- To implement a search algorithm that allows for efficient and accurate retrieval of movie information
 
-### `npm start`
+## Technologies -
+- ReactJS : ReactJS is a popular front-end library that allows you to build reusable components to create a dynamic user interface. It provides state management   capabilities, which can make it easier to manage the data and state of your application.
+- OMDB API : OMDB API is an open-source API that provides access to a vast amount of movie data, including movie titles, plot summaries, ratings, release dates, and more. Developers can use this API to retrieve movie information based on the user's search query and integrate it into their web-based application.
+- HTML : HTML is a markup language that is used to create the structure and content of your web pages. It provides a range of elements and tags that can be used to create headings, paragraphs, lists, and other types of content.
+- CSS : CSS is a stylesheet language that is used to add style and formatting to your web pages. It provides a range of properties and values that can be used to adjust the size, color, font, and layout of your content.
+- Git : Git is a version control system that allows you to manage and track changes to your codebase. It helps you to collaborate with others and keep track of your project history.
+- GitHub : GitHub is a web-based platform that allows you to host and manage your Git repositories. It provides a range of features, such as collaboration tools, issue tracking, and pull requests, to help you work on your project with others.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Usage -
+- Clone or download the source code for the movie searching app from your Git repository.
+- Navigate to the project directory in your terminal.
+- Run the command `npm install` to install all the necessary dependencies for the app.
+- In your terminal, navigate to the project directory.
+- Run the command npm start to start the development server.
+- Open a web browser and navigate to `http://localhost:3000/` to access the app.
+- Enter the name of the movie you want to search in the search bar and click the search button.
+- The app will display the relevant movie information retrieved from the OMDB API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots -
+- Movie Searching App page
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Movie Searching App](https://raw.githubusercontent.com/Alpha-santhosh/Movie-Searching-App/main/movie_searching_app.jpg)
