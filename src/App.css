@@ -72,7 +72,7 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 52px;
+  gap: 50px;
   margin-top: 20px;
   padding: 50px;
 }
@@ -123,6 +123,7 @@ li {
   padding: 10px;
   background-color: white;
   border-radius: 5px;
+  position: relative;
 }
 
 .errorModel {
@@ -140,7 +141,8 @@ li {
   justify-content: flex-end;
   background: transparent;
   padding: 0;
-  width: 100%;
+  position: absolute;
+  right: 10px;
 }
 
 .closeIcon {

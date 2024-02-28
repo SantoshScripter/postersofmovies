@@ -10,7 +10,7 @@ export function useGetMoviesAPI() {
     try {
       const response = await fetch(`${BASE_URL}${serachKey}&apikey=${API_KEY}`);
       const responseData = await response.json();
-      if (responseData?.Search.length > 0) {
+      if (responseData?.Response === "True") {
         setPostersData(responseData.Search);
         return;
       }
