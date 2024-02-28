@@ -1,4 +1,4 @@
-# [Movie Searching App](https://alpha-santhosh.github.io/Movie-Searching-App/)
+# [Movie Searching App](https://postersofmovies.netlify.app/)
 
 ## Project Overview -
 - The movie searching app is a web-based application built using ReactJS that allows users to search for movies by typing in the movie's title. The app retrieves movie information from the OMDB API and displays it in a user-friendly format.
